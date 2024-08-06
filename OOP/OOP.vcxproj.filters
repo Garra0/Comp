@@ -14,21 +14,23 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Source Files\Classes">
-      <UniqueIdentifier>{b2d14340-baa2-4fd0-a707-7f0d23a98057}</UniqueIdentifier>
+      <UniqueIdentifier>{a4a65ad2-2f8b-4ff1-8fdb-5690c0db536c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OOP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Subject.cpp">
+    <ClCompile Include="Timer.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Person.cpp">
+    <ClCompile Include="Time.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Const.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ddd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
